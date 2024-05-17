@@ -1,5 +1,0 @@
-class ApplicationController < ActionController::API
-    def hello
-        render json: { message: 'Hello from the Rails API!' }
-    end
-end
